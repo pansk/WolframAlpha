@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolframAlpha", "WolframAlpha\WolframAlpha.csproj", "{12656A75-FE4E-4F20-8351-035E114E2C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolframAlphaExample", "WolframAlphaExample\WolframAlphaExample.csproj", "{6FA49644-10D4-4F56-9E94-218CD180BF41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12656A75-FE4E-4F20-8351-035E114E2C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12656A75-FE4E-4F20-8351-035E114E2C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12656A75-FE4E-4F20-8351-035E114E2C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12656A75-FE4E-4F20-8351-035E114E2C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA49644-10D4-4F56-9E94-218CD180BF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA49644-10D4-4F56-9E94-218CD180BF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA49644-10D4-4F56-9E94-218CD180BF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA49644-10D4-4F56-9E94-218CD180BF41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
