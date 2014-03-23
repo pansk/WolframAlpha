@@ -4,7 +4,7 @@ namespace WolframAlpha
 {
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class Response
+    internal class Response
     {
         [XmlElement("queryresult")]
         public QueryResult QueryResult { get; set; }   

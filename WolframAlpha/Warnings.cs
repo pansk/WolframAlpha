@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Xml.Serialization;
 
 namespace WolframAlpha
@@ -21,7 +20,25 @@ namespace WolframAlpha
         [XmlIgnore]
         public IEnumerable<Warning> All
         {
-            get { return SpellChecks.Cast<Warning>().Concat(Delimiters.Cast<Warning>()).Concat(Translations.Cast<Warning>()).Concat(Reinterpret.Cast<Warning>()); }
+            get
+            {
+                foreach (var spellCheckWarning in SpellChecks)
+                {
+                    yield return spellCheckWarning;
+                }
+                foreach (var delimitersWarning in Delimiters)
+                {
+                    yield return delimitersWarning;
+                }
+                foreach (var translationWarning in Translations)
+                {
+                    yield return translationWarning;
+                }
+                foreach (var reinterpretWarning in Reinterpret)
+                {
+                    yield return reinterpretWarning;
+                }
+            }
         }
     }
 }
