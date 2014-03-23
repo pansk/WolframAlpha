@@ -3,7 +3,7 @@ namespace WolframAlpha
 {
     public class Query
     {
-        private const string BaseUrl = "http://blablabla/";a
+        private const string BaseUrl = "http://blablabla/";
         private string _queryString;
         private string _requestUrl;
         public string ApiKey { get; set; }
